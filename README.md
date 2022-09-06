@@ -2,6 +2,7 @@
 
 
 ### How to run application as a container in your pc?
+- Firstly, you have to clone and start client application
 - Clone the project from master branch to you pc
 - Go to the repository of the project and run 'docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up -d' command
 - Check existing of created container named 'dotnetclient' using 'docker container ps' command
